@@ -17,6 +17,8 @@ A basic NFT deployment project using Stylus in Rust.
 3. Install Ubuntu from the Microsoft Store
 4. Launch Ubuntu and set up your username and password
 
+for more detailed guide refer : https://learn.microsoft.com/en-us/windows/wsl/install
+
 ## 🚀 Installation
 
 1. Install Rust:
@@ -41,6 +43,10 @@ A basic NFT deployment project using Stylus in Rust.
 2. Add your private key to this file
 
 Need ARB Sepolia testnet tokens? Use this faucet: https://faucet.lamproslabs.io/
+
+### Exporting ABI
+
+`cargo stylus export-abi`
 
 ### 🚀 Deploying your program
 
