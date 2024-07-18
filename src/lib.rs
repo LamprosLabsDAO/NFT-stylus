@@ -19,7 +19,7 @@ static ALLOC: mini_alloc::MiniAlloc = mini_alloc::MiniAlloc::INIT;
 /// Immutable definitions
 struct StylusTestNFTParams;
 impl Erc721Params for StylusTestNFTParams {
-    const NAME: &'static str = "StylusTestNFT";
+    const NAME: &'static str = "StylusNFT";
     const SYMBOL: &'static str = "STNFT";
 
     fn token_uri(token_id: U256) -> String {
