@@ -12,7 +12,7 @@ A basic NFT deployment project using Stylus in Rust.
 ### 🖥️ Setting up WSL on Windows
 
 1. Open PowerShell as Administrator and run:
-   wsl --install
+   `wsl --install`
 2. Restart your computer
 3. Install Ubuntu from the Microsoft Store
 4. Launch Ubuntu and set up your username and password
@@ -23,21 +23,17 @@ A basic NFT deployment project using Stylus in Rust.
    Visit https://www.rust-lang.org/tools/install and follow the instructions.
 
 2. Install Stylus CLI:
-   cargo install --force cargo-stylus cargo-stylus-check
+   `cargo install --force cargo-stylus cargo-stylus-check`
 
 3. Add WASM target:
-   rustup target add wasm32-unknown-unknown
+   `rustup target add wasm32-unknown-unknown`
 
 4. Clone the repository:
-   git clone https://github.com/LamprosLabsDAO/NFT-stylus
-   cd NFT-stylus
+   `git clone https://github.com/LamprosLabsDAO/NFT-stylus`
+   `cd NFT-stylus`
 
-## 🛠️ Usage
-
-### Checking your program
-
-To verify deployment readiness:
-cargo stylus check
+5. To verify deployment readiness:
+   `cargo stylus check`
 
 ### 🔑 Setting up the private key
 
@@ -49,26 +45,29 @@ Need ARB Sepolia testnet tokens? Use this faucet: https://faucet.lamproslabs.io/
 ### 🚀 Deploying your program
 
 1. Estimate deployment gas:
-   cargo stylus deploy --private-key-path=<PRIVKEY_FILE_PATH> --estimate-gas-only
+   `cargo stylus deploy --private-key-path=<PRIVKEY_FILE_PATH> --estimate-gas`
+
+   Example:
+   `cargo stylus deploy --private-key-path=./pk.key --estimate-gas`
 
 2. Deploy the program:
-   cargo stylus deploy --private-key-path=<PRIVKEY_FILE_PATH>
+   `cargo stylus deploy --private-key-path=<PRIVKEY_FILE_PATH>`
 
 For more options:
-cargo stylus deploy --help
+`cargo stylus deploy --help`
 
 ## 🎨 Interacting with the NFT contract
 
 1. Navigate to `Interact/erc721/scripts`
 
 2. Install dependencies:
-   yarn
+   `yarn`
 
 3. Set up environment variables:
-   cp .env.example .env
+   `cp .env.example .env`
 
 4. Run the minting script:
-   yarn mint
+   `yarn mint`
 
 ## 📄 License
 
