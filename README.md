@@ -59,8 +59,12 @@ Need ARB Sepolia testnet tokens? Use this faucet: https://faucet.lamproslabs.io/
 2. Deploy the program:
    `cargo stylus deploy --private-key-path=<PRIVKEY_FILE_PATH>`
 
-For more options:
-`cargo stylus deploy --help`
+3. If it is not working then you can add the private key directly
+   `cargo stylus deploy --private-key <PRIVKEY_FILE_PATH>>`
+   For more options:
+   `cargo stylus deploy --help`
+
+4. Once it is deployed you can paste you address on https://sepolia.arbiscan.io/ and check the status
 
 ## 🎨 Interacting with the NFT contract
 
