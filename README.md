@@ -60,7 +60,7 @@ Need ARB Sepolia testnet tokens? Use this faucet: https://faucet.lamproslabs.io/
    `cargo stylus deploy --private-key-path=<PRIVKEY_FILE_PATH>`
 
 3. If it is not working then you can add the private key directly
-   `cargo stylus deploy --private-key <PRIVKEY_FILE_PATH>>`
+   `cargo stylus deploy --private-key <PRIVKEY_KEY>`
    For more options:
    `cargo stylus deploy --help`
 
