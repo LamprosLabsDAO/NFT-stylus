@@ -22,7 +22,8 @@ for more detailed guide refer : https://learn.microsoft.com/en-us/windows/wsl/in
 ## 🚀 Installation
 
 1. Install Rust:
-   Visit https://www.rust-lang.org/tools/install and follow the instructions.
+   enter this command in WSL
+   `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 
 2. Install Stylus CLI:
    `cargo install --force cargo-stylus cargo-stylus-check`
