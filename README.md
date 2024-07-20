@@ -14,8 +14,7 @@ A basic NFT deployment project using Stylus in Rust.
 1. Open PowerShell as Administrator and run:
    `wsl --install`
 2. Restart your computer
-3. Install Ubuntu from the Microsoft Store
-4. Launch Ubuntu and set up your username and password
+3. Launch Ubuntu and set up your username and password
 
 for more detailed guide refer : https://learn.microsoft.com/en-us/windows/wsl/install
 
