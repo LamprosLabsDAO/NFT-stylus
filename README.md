@@ -30,7 +30,7 @@ for more detailed guide refer : https://learn.microsoft.com/en-us/windows/wsl/in
 2. Install Stylus CLI:
    `cargo install --force cargo-stylus cargo-stylus-check`
 
-   If you are facing issue with installing with cc modele then install
+   If you are facing issue with installing with cc module then install
    `sudo apt update`
    `sudo apt install build-essential`
 
@@ -42,6 +42,7 @@ for more detailed guide refer : https://learn.microsoft.com/en-us/windows/wsl/in
 
 4. Clone the repository:
    `git clone https://github.com/LamprosLabsDAO/NFT-stylus`
+
    `cd NFT-stylus`
 
 5. To verify deployment readiness:
