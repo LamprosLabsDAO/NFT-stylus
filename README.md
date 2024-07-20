@@ -53,7 +53,7 @@ for more detailed guide refer : https://learn.microsoft.com/en-us/windows/wsl/in
    cargo build command failed
 
    run
-   `rustup install nightly`
+   `rustup default stable`
 
 ### 🔑 Setting up the private key
 
