@@ -25,8 +25,17 @@ for more detailed guide refer : https://learn.microsoft.com/en-us/windows/wsl/in
    enter this command in WSL
    `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 
+   restart WSL
+
 2. Install Stylus CLI:
    `cargo install --force cargo-stylus cargo-stylus-check`
+
+   If you are facing issue with installing with cc modele then install
+   `sudo apt update`
+   `sudo apt install build-essential`
+
+   check version
+   `cc --version`
 
 3. Add WASM target:
    `rustup target add wasm32-unknown-unknown`
@@ -37,6 +46,13 @@ for more detailed guide refer : https://learn.microsoft.com/en-us/windows/wsl/in
 
 5. To verify deployment readiness:
    `cargo stylus check`
+
+   if you are getting error
+   error: toolchain 'nightly-x86_64-unknown-linux-gnu' is not installed
+   cargo build command failed
+
+   run
+   `rustup install nightly`
 
 ### 🔑 Setting up the private key
 
