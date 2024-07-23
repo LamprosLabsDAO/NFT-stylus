@@ -23,7 +23,7 @@ impl Erc721Params for StylusTestNFTParams {
     const SYMBOL: &'static str = "STNFT";
 
     fn token_uri(token_id: U256) -> String {
-        format!("{}{}{}", "https://my-nft-metadata.com/", token_id, ".json")
+        format!("https://gateway.lighthouse.storage/ipfs/bafkreie454vkrrvwuu37tlcdhm2rkmhawc7ge5rt366dzdemz2nq72udx4")
     }
 }
 
